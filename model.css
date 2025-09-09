@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+Arabic:wght@500&display=swap');
+    @import url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+	@import url(http://fonts.googleapis.com/earlyaccess/notonastaliqurdudraft.css);
+#newss em {
+   
+    font-size: 14px;
+}
+.urdu {
+	direction: rtl;
+	display: block;
+	/*font-family: 'Noto Nastaliq Urdu Draft', serif;*/
+    font-family: 'Noto Naskh Arabic', serif;
+	font-size: 20px;
+    color: #FBD200;
+	 text-align: right;
+}
+
+.list-group-item {
+    position: relative;
+    /* display: block; */
+     padding: .5rem 1rem; 
+    color: #212529;
+    text-decoration: none;
+    background-color: #900;
+    border: 1px solid rgb(255 255 255 / 58%);
+}
+
+.modal-footer {
+
+    display: none;
+}
+
+.modal-body {
+	position: relative;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	background-color: #900;
+}
+.modal-body i{
+	color: #FFE500;
+	font-size: 1.4em;
+}
+
+#newss ul {
+	list-style-type: none;
+	    
+}
+/*#newss ul li {
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}*/
+#newss ul li:hover {
+	/*background-color: #FFC;*/
+}
+#newss ul li strong   {
+	/*color: #fff;*/
+	font-size: 1.1rem;
+}#newss a span{
+    font-weight: bold;
+}
+#newss ul li a:hover, #newss a strong:hover {
+	color: #FBD200;
+}
+#newss ul li  {
+	color: #fff;
+	line-height: 20px;
+	font-size: 1.1rem;
+	position: relative;
+	padding-left: 2.2rem;
+}
+#newss li:before {
+    position: absolute;
+    top: 0;
+	left: 0;
+    margin: 10px 0 0 0px;
+    vertical-align: middle;
+    content: "\f178";
+    font-family: 'icomoon';
+    font-size: 1.2rem;
+    color: #FCD300;
+}	
+#newss ul ul {
+	 
+	margin-left: -30px;
+}
+#newss li li {
+	padding-left: 20px;
+}
+#newss li li:before {
+    position: absolute;
+    top: 0;
+	left: 0;
+    
+    vertical-align: middle;
+    content: "\f101";
+	margin: 0px;
+    font-family: 'icomoon';
+    font-size: 1.2rem;
+    color: #FCD300;
+}	
+.text-pink{color: #01ff2c!important;}
+.text-pink:hover{color: #ffc9c9!important;}
+#newss ul li a {
+	color: #fff;
+	font-size: 1.1rem;
+}
+.text-orange{color: #FCD300!important;}
+.text-orange:hover{color: #ffc9c9!important;}
+#newss ul li a {
+	color: #fff;
+	font-size: 1.1rem;
+}
+#newss ul li a em:hover, #newss ul li em a:hover {
+	font-size: 14px;
+	 
+	color: #F4F4F4;}
+#newss ul li a em, #newss ul li em a {
+	font-size: 14px;
+	 
+	color: #FFDD00;
+	
+	font-style: italic;
+	/* [disabled]font-weight: bold; */
+	margin-top: 5px;
+	 
+}
+.modal-header{
+	color: #FFF;
+	background-color: #900;
+}
+.modal-header h5{
+	
+	/*text-shadow: 2px 2px 3px #000;*/
+	font-size: 1.6rem;
+	
+}
+	.modal-header i.bx.bx-news {
+    font-size: 2rem;
+    padding-right: 1rem;
+		color: #F9E101;
+}
+@media (max-width: 767px) {
+.modal-header h4{
+	font-size: 20px;
+}
+	#newss ul li  {
+	
+	font-size: 1rem;
+	
+}
+}
+ .blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+     font-size: 13px;
+     color: yellow;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+@media screen and (max-width: 767px) and (min-width:600px){
+  .blink-new{
+	position: absolute;
+      right: 5px;
+      top:0px;
+     
+}  
+}
+
+
+ .blink-new{
+	animation: blinkingText 1.3s infinite;
+  font-size: .8em;
+     
+}
+@keyframes blinkingText{
+	0%{		color: #fff;	}
+	49%{	color: yellow;	}
+	50%{	color: #FF00C6;	}
+	99%{	color:#00FF43;	}
+	100%{	color: #920000;	}
+}

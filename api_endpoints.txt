@@ -1,0 +1,4 @@
+# API Endpoints Found
+
+- //vzaar.com/api/videos/
+- //vimeo.com/api/v2/video/

@@ -1,0 +1,447 @@
+ï»¿/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/responsive-website-using-bootstrap/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+/*THIS IS TEMP CODE*/
+
+.navbar {
+	/*display: none*/
+}
+/*THIS IS TEMP CODE*/
+
+/*#example3 .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 70%;
+    z-index: 1000;
+  
+
+}*/
+
+.section-detail p {
+    text-align: left;
+}
+.main-icon {
+    
+    min-height: 504px;
+}
+.flsbm-menu .nav>li>a {
+	position: relative;
+	display: block;
+	color: #fff;
+	padding-top: 3px;
+	padding-right: 1px;
+	padding-bottom: 3px;
+	padding-left: 1px;
+}
+
+.navbar-default {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #e7e7e7;
+	border-right-color: #e7e7e7;
+	border-bottom-color: #e7e7e7;
+	border-left-color: #e7e7e7;
+	background-color: #990000;
+}
+
+
+
+.sidenav-r {
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+
+a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #006699;
+}
+/* customized carousel */
+.carousel {
+    /*min-height: 409px;*/
+   /* margin-bottom: 50px;*/
+}
+.carousel-caption {
+    z-index: 10;
+}
+.carousel .item {
+    background-color: rgba(0, 0, 0, 0.8);
+    /*min-height: 409px;*/
+}
+.page-header {
+	margin: 0px;
+	border-bottom: 1px solid #eee;
+	background-image: url(../img/Responsivs/header-bg.jpg);
+	height: 117px;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.page-header .logo {
+	float: left;
+	margin-left: 1.5%;
+	margin-top: 15px;
+	
+	
+}
+.page-header .logo a {
+	background-image: url(../img/Responsivs/logo-title.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	min-width: 855px;
+	min-height: 67px;
+	display: block;
+	text-indent: -1000px;
+}
+.header-building {
+	background-image: url(../img/Responsivs/banner-building.png);
+	height: 117px;
+	min-width: 376px;
+	background-repeat: no-repeat;
+	/*float: right;*/
+	background-position: right bottom;
+}
+.navbar-top{
+	position: relative;
+	background-image: none;
+	min-height: 20px;
+	background-color: #a7242a;
+}	 
+.navbar-top a{
+	color: #FFF;
+	padding-top: 3px;
+	padding-bottom: 1px;
+	display: inline !important;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.navbar-top a:hover{
+	background-color: transparent !important;
+	color: #FC0;
+}
+
+.navbar-top .nav>li>a {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	font-size: 12px;
+}
+
+
+.navbar-top .navbar-toggle {
+	position: relative;
+	float: left;
+	margin-top: 2px;
+	margin-right: 15px;
+	margin-bottom: 2px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin-left: 15px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+.navbar-top .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/*==========NAVBAR==============*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse {
+	background-color: #B32317;
+	border-color: #080808
+}
+.dropdown-menu
+{
+	background-color: #B32317 !important;
+	
+	}
+.dropdown-menu>li>a{
+	color: #fff;
+	}
+	.navbar {
+	     border-radius: 0px !important; }
+		 
+	
+/*===================================*/
+
+.dropdown-menu > li.kopie > a {
+    padding-left:5px;
+}
+ 
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+   top:0;left:100%;
+   margin-top:-6px;margin-left:-1px;
+   -webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;
+ }
+  
+.dropdown-submenu > a:after {
+  border-color: transparent transparent transparent #333;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0;     
+  margin-right: -10px;
+  margin-top: 5px;
+  width: 0;
+}
+ 
+.dropdown-submenu:hover>a:after {
+    border-left-color:#555;
+ }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+  text-decoration: none;
+}  
+  
+#navbar .navbar-brand {
+	/* [disabled]color: #999; */
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+.home_links ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.home_links ul li a {
+    text-decoration: none;
+    color: #E8E8E8;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    display: block;
+}
+.home_links ul li {
+    list-style-type: none;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #A7312E;
+    border-bottom-color: #641E1C;
+    display: block;
+    vertical-align: middle;
+    /*padding-left: 15px;*/
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+.home_links ul li a:hover{
+	color: #FAA74A;
+	/* [disabled]background-color: #4D1718; */
+}.home_links h3 {
+	color: #FAA74A;
+}
+.main-icon,.news-ticker{
+	background-color: #FFF;
+	border-top-width: 20px;
+	border-top-style: solid;
+	border-top-color: #862725;
+}
+.main-icon{
+	padding-bottom: 7px;
+}
+.icon-box {
+	margin-top: 10px;
+	text-align: center;
+}
+.icon-box img{
+	
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	display: block;
+	}
+.icon-box:hover{
+	/*border: 1px solid #CCC;*/
+	border-radius: 4px;
+	box-shadow: 0px 0px 3px 0px #099;
+	}
+.icon-box h5{
+	font-size: 12px;
+}	
+.news-item strong{
+	color: #900;
+	display: block;
+}
+.news-item em{
+	color: #900;
+	display: none;
+}
+.news-ticker{
+	padding-top: 20px;
+	min-height: 504px;
+}
+.panel-footer {
+	padding: 5px;
+}
+.home_links .btn {
+	white-space: normal;
+	text-align: left;
+	margin-top: 15px;
+}
+.navbar-center {
+	text-align: center;
+	float: none;
+}
+.carousel-caption {
+    bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(134, 39, 37, 0.7);
+}
+.carousel-caption h3 {
+	padding-top: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.techer_student:hover
+{
+	background-color: #FC0;
+	transition: 0.5s;
+	}
+.techer_student {
+	background-image: url(../../images/main_page/images/login_11.png);
+	padding-left: 50px;
+	background-repeat: no-repeat;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #366;
+	border: 1px dashed #CCC;
+	padding-top: 5px;
+	background-position: left center;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	/* [disabled]float: left; */
+	margin: 5px;
+	background-color: #E4E4E4;
+}
+.techer_student strong a {
+	color: #393;
+	text-decoration: none;
+	font-size: 17px;
+}
+table {
+	width: 100%;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 100%;
+	
+	
+	}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+	padding-top: 20px;
+	background-color: #990000;
+	 
+	
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+	/* [disabled]background-color: #555; */
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #900;
+    }
+    
+ 
+
+p {
+	text-align: justify;
+}
+#a .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #e7e7e7;
+	border-right-color: #e7e7e7;
+	border-bottom-color: #e7e7e7;
+	border-left-color: #e7e7e7;
+}
+#a toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #990000;
+}.nav-right {
+	float: right;
+	/* [disabled]text-align: right; */
+}
+.nav .caret {
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+    border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+}
+.new_news ul {
+    list-style-type: none;
+    /* margin-left: 0px !important; */
+    padding-left: 0px;
+}
+.new {
+	background-image: url(../img/new.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 10px;
+}
+
+.footer{
+	position: relative;
+}
+.fb {
+	
+	float: left;
+	height: 24px;
+	width: 24px;
+}
+
+.twiter {
+	
+	float: left;
+	height: 24px;
+	width: 24px;
+}
+
+.thumb125
+{
+	width: 125px;
+	height: auto;
+	padding: 2px;
+	border: 1px solid #CCC;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	box-shadow: 0px 0px 3px #000000;
+}
+

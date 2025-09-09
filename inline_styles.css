@@ -1,0 +1,22 @@
+
+	#header .logo img {
+    /* max-height: 40px; */
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+	
+
+/* ===== INLINE CSS ===== */
+
+
+	#myIframe {height: 362px}	
+	#iFrame1 {height: 382px}
+
+
+
+/* ===== INLINE CSS ===== */
+
+
+    .owl-carousel .col-lg-3 {border-right: 1px solid #ccc;}
+
